@@ -1,0 +1,45 @@
+/*===========================================================================
+    HEADER STYLES
+===========================================================================*/
+/* Font weight buttons */
+.header a, .header button {
+  font-weight: bold;
+}
+
+/* Logo and name */
+.header span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* Practice title */
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Dropdown menu background color */
+.dropdown-dark {
+  background-color: #1d1d1d;
+}
+
+/* Dropdown menu font color */
+.dropdown-dark li a {
+  color: #FFF;
+}
+
+/* Header margins on cell phones and tablets */
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 1rem 0;
+  }
+  
+  .header a {
+    margin-right: 4rem;
+  }
+  
+  .header h1 {
+    margin-bottom: 2rem;
+  }
+}
