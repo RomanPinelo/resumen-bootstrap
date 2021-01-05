@@ -4,6 +4,11 @@
 /* Font weight buttons */
 .header a, .header button {
   font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.header button {
+  margin-right: 4rem;
 }
 
 /* Logo and name */
@@ -17,6 +22,7 @@
 .header h1 {
   font-size: 3rem;
   font-weight: bold;
+  margin-top: 0.75rem;
 }
 
 /* Dropdown menu background color */
@@ -24,9 +30,28 @@
   background-color: #1d1d1d;
 }
 
-/* Dropdown menu font color */
+/* Dropdown menu font color and font size */
 .dropdown-dark li a {
   color: #FFF;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .header button {
+    margin-right: 1rem;
+  }
+  
+  .dropdown-dark li a {
+    font-size: 1.9rem;
+  }
+  
+  .dropdown-dark {
+    width: 32rem;
+  }
+  
+  .dropdown-dark li a {
+    width: 32rem;
+  }
 }
 
 /* Header margins on cell phones and tablets */
@@ -35,12 +60,42 @@
     margin: 1rem 0;
   }
   
-  .header a {
-    margin-right: 4rem;
+  .header button {
+    margin-right: 3.5rem;
   }
   
   .header h1 {
     margin-bottom: 2rem;
+  }
+  
+  .dropdown-dark {
+    width: 34rem;
+  }
+  
+  .dropdown-dark li a {
+    width: 34rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header a, .header button {
+    font-size: 1.5rem;
+  }
+  
+  .header button {
+    margin-right: 0;
+  }
+  
+  .dropdown-dark li a {
+    font-size: 1.7rem;
+  }
+  
+  .dropdown-dark {
+    width: 28.8rem;
+  }
+  
+  .dropdown-dark li a {
+    width: 28.8rem;
   }
 }
   
@@ -49,6 +104,7 @@
 ===========================================================================*/
 .bg-clr {
   background-color: #544fcc;
+  margin-bottom: -2.5rem;
 }
 
 .panel-footer small {
