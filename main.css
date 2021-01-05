@@ -43,3 +43,22 @@
     margin-bottom: 2rem;
   }
 }
+  
+/*===========================================================================
+    FOOTER STYLES
+===========================================================================*/
+.bg-clr {
+  background-color: #544fcc;
+}
+
+.panel-footer small {
+  color: #ffffff; 
+  font-weight: bold; 
+  font-size: 2.5rem;
+}
+
+.panel-footer span {
+  color: #d2ba87; 
+  font-weight: bold; 
+  font-size: 2.5rem;
+}
