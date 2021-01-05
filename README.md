@@ -4,6 +4,6 @@
 
 Puedes ver el sitio web terminado aquí:
 
-https://romanpinelo.github.io/
+https://romanpinelo.github.io/resumen-bootstrap/
 
 Práctica donde se resumen varias de las clases de Bootstrap vistas en la lección.
